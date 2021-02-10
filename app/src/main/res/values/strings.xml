@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">sqlite</string>
+    <string name="nombre">Nombre</string>
+    <string name="direccion">Direccion</string>
+    <string name="titulo_main">Prueba de BDD</string>
+    <string name="agregar">Agregar</string>
+    <string name="placeholder_name">Ingrese el nombre</string>
+    <string name="placeholder_direccion">Ingrese la direccion</string>
+    <string name="consultar_direccion">Consultar direccion</string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="crud_user">Administrador de usuarios</string>
+    <string name="rut">Rut</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidops">Apellidos</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Correo</string>
+    <string name="users">Usuarios</string>
+    <string name="locales">Locales</string>
+    <string name="consultar_user">Consultar usuario</string>
+    <string name="menu">Menu</string>
+    <string name="productos">Productos</string>
+    <string name="nombre_producto">Nombre del producto</string>
+    <string name="precio">Precio</string>
+    <string name="local">Local</string>
+    <string name="create_producto">Crear Producto</string>
+    <string name="Ciudad">Ciudad</string>
+    <string name="userid">User id</string>
+    <string name="consultar_precio">Consultar Precio</string>
+</resources>
