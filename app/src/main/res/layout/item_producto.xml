@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvNomProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_absoluteHeight="19dp"
+        tools:layout_conversion_absoluteWidth="395dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/removeProducto"
+            android:layout_width="43dp"
+            android:layout_height="34dp"
+            android:text="@string/menos"
+            app:layout_constraintBottom_toBottomOf="@id/removeProducto"
+            app:layout_constraintStart_toStartOf="@id/removeProducto"
+            app:layout_constraintTop_toBottomOf="@+id/tvNomProducto"
+            tools:layout_conversion_absoluteHeight="37dp"
+            tools:layout_conversion_absoluteWidth="55dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="27dp" />
+
+        <TextView
+            android:id="@+id/cantidadProducto"
+            android:layout_width="151dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="@string/inicio_carrito" />
+
+        <Button
+            android:id="@+id/addProducto"
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill_vertical|end"
+            android:text="@string/mas"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addProducto"
+            tools:layout_conversion_absoluteHeight="34dp"
+            tools:layout_conversion_absoluteWidth="55dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="64dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPrecio"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/inicio_carrito"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNomProducto"
+        tools:layout_conversion_absoluteHeight="19dp"
+        tools:layout_conversion_absoluteWidth="100dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <Button
+        android:id="@+id/addCarrito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/añadir_item" />
+
+    <CheckBox
+        android:id="@+id/cbCarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Añadir al carro de compras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPrecio" />
+
+</LinearLayout>

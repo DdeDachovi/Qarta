@@ -31,9 +31,13 @@
         <activity android:name=".ProductoActivity"
         android:parentActivityName=".Main">
 
-    </activity>
+        </activity>
         <activity android:name=".LocalActivity"
             android:parentActivityName=".Main">
+
+        </activity>
+        <activity android:name=".CarroCompra"
+            android:parentActivityName=".LocalActivity">
 
         </activity>
     </application>

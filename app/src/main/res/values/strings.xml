@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">sqlite</string>
+    <string name="app_name">QARTA</string>
     <string name="nombre">Nombre</string>
     <string name="direccion">Direccion</string>
     <string name="titulo_main">Prueba de BDD</string>
@@ -27,4 +27,10 @@
     <string name="Ciudad">Ciudad</string>
     <string name="userid">User id</string>
     <string name="consultar_precio">Consultar Precio</string>
+    <string name="inicio_carrito">0</string>
+    <string name="mas">+</string>
+    <string name="menos">-</string>
+    <string name="añadir_item">Añadir al carro</string>
+    <string name="close">Quitar</string>
+    <string name="pagar">Pagar total</string>
 </resources>
