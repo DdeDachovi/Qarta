@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="sqlite/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sqlite.iml" filepath="$PROJECT_DIR$/.idea/modules/sqlite.iml" group="sqlite" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QARTA_REMASTERED.iml" filepath="$PROJECT_DIR$/.idea/modules/QARTA_REMASTERED.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/QARTA_REMASTERED.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/QARTA_REMASTERED.app.iml" />
     </modules>
   </component>
 </project>

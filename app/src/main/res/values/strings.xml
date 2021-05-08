@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QARTA</string>
+    <string name="app_name">QARTA_REMASTERED</string>
     <string name="nombre">Nombre</string>
     <string name="direccion">Direccion</string>
     <string name="titulo_main">Prueba de BDD</string>
@@ -33,4 +33,26 @@
     <string name="añadir_item">Añadir al carro</string>
     <string name="close">Quitar</string>
     <string name="pagar">Pagar total</string>
+    <string name="welcome"> ¡Bienvenido/a a Qarta!</string>
+    <string name="scanner">Escanear codigo QR</string>
+    <string name="Adminstracion">Administración</string>
+    <string name="add_local">Añadir local</string>
+    <string name="add_user">Añadir usuario</string>
+    <string name="add_producto">Añadir producto</string>
+    <string name="password">Password</string>
+    <string name="horario">Horario</string>
+    <string name="contacto">Contacto(Numero telefonico)</string>
+    <string name="logo">Logo(texto provisional)</string>
+    <string name="instagram">Instagram</string>
+    <string name="confirmar_pedido">Confirmar pedido</string>
+    <string name="total_pago">Total a pagar: $</string>
+    <string name="_0_0">0</string>
+    <string name="ver_cocina">Ver cocina</string>
+    <string name="Local">Local</string>
+    <string name="add_mesa">Agregar mesa</string>
+    <string name="numero_mesa">Numero de la mesa</string>
+    <string name="pedidos_pendientes">Pedidos pendientes</string>
+    <string name="Cocinar_producto">Cocinar producto</string>
+    <string name="Pedido_confirmado">Pedido confirmado</string>
+    <string name="Volver">Volver al menu</string>
 </resources>

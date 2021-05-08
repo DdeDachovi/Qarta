@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "sqlite"
+rootProject.name = "QARTA_REMASTERED"

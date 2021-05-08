@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="david.test.sqlite">
+    package="com.example.qarta_remastered">
+
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -8,38 +10,49 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Main">
+        android:theme="@style/Theme.QARTA_REMASTERED">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
-            android:parentActivityName=".Main">
-
-        </activity>
-        <activity android:name=".UserActivity"
-            android:parentActivityName=".Main">
-
-        </activity>
-        <activity android:name=".MenuActivity"
-            android:parentActivityName=".Main">
-
-        </activity>
-        <activity android:name=".ProductoActivity"
-        android:parentActivityName=".Main">
-
-        </activity>
-        <activity android:name=".LocalActivity"
-            android:parentActivityName=".Main">
-
-        </activity>
-        <activity android:name=".CarroCompra"
-            android:parentActivityName=".LocalActivity">
-
-        </activity>
+        <activity
+            android:name=".AdministracionActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LocalIndexActivity"
+            android:parentActivityName=".AdministracionActivity" />
+        <activity
+            android:name=".ProductoIndexActivity"
+            android:parentActivityName=".AdministracionActivity" />
+        <activity
+            android:name=".UsuarioIndexActivity"
+            android:parentActivityName=".AdministracionActivity" />
+        <activity
+            android:name=".MenuIndexActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CarroCompraListaActivity"
+            android:parentActivityName=".MenuIndexActivity"/>
+        <activity
+            android:name=".CocinaIndexActivity"
+            android:parentActivityName=".LocalCocinaActivity"/>
+        <activity
+            android:name=".MesaIndexActivity"
+            android:parentActivityName=".AdministracionActivity"/>
+        <activity
+            android:name=".ProductosCocinaActivity"
+            android:parentActivityName=".CocinaIndexActivity"/>
+        <activity
+            android:name=".ProductoPreparacionActivity"
+            android:parentActivityName=".ProductosCocinaActivity"/>
+        <activity
+            android:name=".PedidoConfirmadoActivity" />
+        <activity
+            android:name=".LocalCocinaActivity"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
